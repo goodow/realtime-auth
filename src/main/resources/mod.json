@@ -1,0 +1,8 @@
+{
+  "main": "com.goodow.realtime.auth.server.AuthVerticle",
+  "auto-redeploy": true,
+  
+  "deploys": "com.goodow.realtime~realtime-search~0.5.5-SNAPSHOT",
+  
+  "homepage": "https://github.com/goodow/realtime-auth/"
+}
