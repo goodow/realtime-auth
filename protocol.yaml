@@ -1,22 +1,22 @@
 # address: realtime.auth.login
 ---
 userId: uid
-token: accessToken
+token: code
 --- # reply
 status: ok # or denied
-sessionID: sid
+access_token: accessToken
 ...
 
 # address: realtime.auth.logout
 ---
-sessionID: sid
+access_token: accessToken
 --- # reply
 status: ok # or error
 ...
 
 # address: realtime.auth.authorise
 ---
-sessionID: sid
+access_token: accessToken
 --- # reply
 status: ok # or denied
 userId: uid
